@@ -1,2 +1,3 @@
+import { head, paraText, newPara, image } from "./content";
+
 console.log("Hello");
-console.log("Bello");
