@@ -1,6 +1,20 @@
-import { content, head, paraText, newPara, image } from "./content";
+import { homePage } from "./content";
 
 console.log("Hello");
+
+const homeBtn = document.querySelector(".homeBtn");
+homeBtn.addEventListener("click", async () => {
+    try {
+        content.innerHTML = "";
+        const module = await import("./content"); 
+        content.appendChild(module.homePage());
+        console.log("Sello");
+    }
+    catch (error) {
+        console.log("Error importing module: ", error);
+    }
+
+});
 
 const menuBtn = document.querySelector(".menuBtn");
 menuBtn.addEventListener("click", async () => {
