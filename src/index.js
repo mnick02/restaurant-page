@@ -2,8 +2,8 @@ import { content, head, paraText, newPara, image } from "./content";
 
 console.log("Hello");
 
-const homeBtn = document.querySelector(".homeBtn");
-homeBtn.addEventListener("click", async () => {
+const menuBtn = document.querySelector(".menuBtn");
+menuBtn.addEventListener("click", async () => {
     try {
         content.innerHTML = "";
         const module = await import("./content2"); 
@@ -15,6 +15,22 @@ homeBtn.addEventListener("click", async () => {
     }
 
 });
+
+const contactBtn = document.querySelector(".contactBtn");
+contactBtn.addEventListener("click", async () => {
+    try {
+        content.innerHTML = "";
+        const module = await import("./content3"); 
+        content.appendChild(module.three);
+        console.log("Bello");
+    }
+    catch (error) {
+        console.log("Error importing module: ", error);
+    }
+
+});
+
+//Make one for each btn
 
 //check if divcontent already exists from imprt
 //check if you can clear divcontent
