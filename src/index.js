@@ -1,6 +1,19 @@
 import { homePage } from "./content";
 
 console.log("Hello");
+//set default homepage, use DOMCONTENt load event listener?
+
+document.addEventListener("DOMContentLoaded", async () => {
+    try {
+        content.innerHTML = "";
+        const module = await import("./content"); 
+        content.appendChild(module.homePage());
+        console.log("WEello");
+    }
+    catch (error) {
+        console.log("Error importing module: ", error);
+    }
+});
 
 const homeBtn = document.querySelector(".homeBtn");
 homeBtn.addEventListener("click", async () => {
@@ -16,6 +29,7 @@ homeBtn.addEventListener("click", async () => {
 
 });
 
+//Find out why you are getting error in the console
 const menuBtn = document.querySelector(".menuBtn");
 menuBtn.addEventListener("click", async () => {
     try {
