@@ -1,5 +1,5 @@
 import SanjiImage from './sanji.png';
-const content = document.getElementById("content");
+export const content = document.getElementById("content");
 
 export const head = document.createElement("h1");
 head.classList.add("header");
