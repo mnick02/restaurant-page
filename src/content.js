@@ -14,6 +14,9 @@ export function homePage() {
     paraText.textContent = "Sunset Burger Bar has the best burger and bar! Awesome burgers and bar! And burgers! And bar! burger bar and bar and burger! Sunset maybe there as well depending on day and time... But always bar and burger!";
     container.appendChild(paraText);
 
+
+
+
     const hourContainer = document.createElement("div");
     hourContainer.classList.add("hours");
     container.appendChild(hourContainer);
@@ -23,11 +26,43 @@ export function homePage() {
     hoursHeader.textContent = "Hours";
     hourContainer.appendChild(hoursHeader);
 
-    const newPara = document.createElement("p");
-    newPara.style.fontStyle = 'italic';
-    newPara.classList.add("text");
-    newPara.textContent = "FOOD & STUFF!!!"
-    hourContainer.appendChild(newPara);
+    const monday = document.createElement("p");
+    monday.classList.add("monday");
+    monday.textContent = "Monday: 8am - 7pm"
+    hourContainer.appendChild(monday);
+
+    const tuesday = document.createElement("p");
+    tuesday.classList.add("tuesday");
+    tuesday.textContent = "Tuesday: 8am - 7pm"
+    hourContainer.appendChild(tuesday);
+    
+    const wednesday = document.createElement("p");
+    wednesday.classList.add("wednesday");
+    wednesday.textContent = "Wednesday: 8am - 7pm"
+    hourContainer.appendChild(wednesday);
+
+    const thursday = document.createElement("p");
+    thursday.classList.add("thursday");
+    thursday.textContent = "Thursday: 8am - 7pm"
+    hourContainer.appendChild(thursday);
+
+    const friday = document.createElement("p");
+    friday.classList.add("friday");
+    friday.textContent = "Friday: 8am - 7pm"
+    hourContainer.appendChild(friday);
+
+    const saturday = document.createElement("p");
+    saturday.classList.add("saturday");
+    saturday.textContent = "Saturday: 7am - 10pm"
+    hourContainer.appendChild(saturday);
+
+    const sunday = document.createElement("p");
+    sunday.classList.add("sunday");
+    sunday.textContent = "Sunday: Closed"
+    hourContainer.appendChild(sunday);
+
+
+
 
     const image = document.createElement("img");
     image.classList.add("image");
