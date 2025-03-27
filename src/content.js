@@ -14,11 +14,20 @@ export function homePage() {
     paraText.textContent = "Sunset Burger Bar has the best burger and bar! Awesome burgers and bar! And burgers! And bar! burger bar and bar and burger! Sunset maybe there as well depending on day and time... But always bar and burger!";
     container.appendChild(paraText);
 
+    const hourContainer = document.createElement("div");
+    hourContainer.classList.add("hours");
+    container.appendChild(hourContainer);
+
+    const hoursHeader = document.createElement("h3");
+    hoursHeader.classList.add("hourHead");
+    hoursHeader.textContent = "Hours";
+    hourContainer.appendChild(hoursHeader);
+
     const newPara = document.createElement("p");
     newPara.style.fontStyle = 'italic';
     newPara.classList.add("text");
     newPara.textContent = "FOOD & STUFF!!!"
-    container.appendChild(newPara);
+    hourContainer.appendChild(newPara);
 
     const image = document.createElement("img");
     image.classList.add("image");
