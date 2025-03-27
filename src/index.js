@@ -1,3 +1,4 @@
+import "./style.css";
 import { homePage } from "./content";
 
 console.log("Hello");
