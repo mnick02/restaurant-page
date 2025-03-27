@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    padding: 50px;
+}
+
+nav {
+   display: flex;
+   gap: 50px;
+   justify-content: center;
+   align-items: center;
+}
+
