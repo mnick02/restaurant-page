@@ -3,6 +3,8 @@ import { homePage } from "./content";
 console.log("Hello");
 //set default homepage, use DOMCONTENt load event listener?
 
+const content = document.getElementById("content");
+
 document.addEventListener("DOMContentLoaded", async () => {
     try {
         content.innerHTML = "";
