@@ -6,12 +6,12 @@ export function homePage() {
 
     const head = document.createElement("h1");
     head.classList.add("header");
-    head.textContent = "Hello, this is the best restaurant";
+    head.textContent = "Sunset Burger Bar";
     container.appendChild(head);
 
     const paraText = document.createElement("p");
     paraText.classList.add("text");
-    paraText.textContent = "Come eat some of the most fantastic food in the whole world at...";
+    paraText.textContent = "Sunset Burger Bar has the best burger and bar! Awesome burgers and bar! And burgers! And bar! burger bar and bar and burger! Sunset maybe there as well depending on day and time... But always bar and burger!";
     container.appendChild(paraText);
 
     const newPara = document.createElement("p");
