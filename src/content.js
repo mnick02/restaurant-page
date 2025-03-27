@@ -61,6 +61,20 @@ export function homePage() {
     sunday.textContent = "Sunday: Closed"
     hourContainer.appendChild(sunday);
 
+    const locContainer = document.createElement("div");
+    locContainer.classList.add("location");
+    container.appendChild(locContainer);
+
+    const locHead = document.createElement("h3");
+    locHead.classList.add("locHead");
+    locHead.textContent = "Location";
+    locContainer.appendChild(locHead);
+
+    const location = document.createElement("p");
+    location.classList.add("locTxt");
+    location.textContent = "153 Sunset Drive, Sunnyville, California";
+    locContainer.append(location);
+
 
 
 
