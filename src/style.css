@@ -10,10 +10,10 @@ header {
 }
 
 nav {
-   display: flex;
-   gap: 50px;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .homeBtn, .menuBtn, .contactBtn {
@@ -28,4 +28,15 @@ nav {
     cursor: pointer;
 }
 
+body {
+    background-color: #ffcc7b;
+}
+
+#content {
+    background-color: #FE5B54;
+    border-radius: 30px;
+    max-width: 810px;
+    padding: 55px;
+    margin: 0 auto;
+}
 
