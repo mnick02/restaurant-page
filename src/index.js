@@ -52,7 +52,7 @@ contactBtn.addEventListener("click", async () => {
     try {
         content.innerHTML = "";
         const module = await import("./content3"); 
-        content.appendChild(module.three);
+        content.appendChild(module.contactPage());
         console.log("Bello");
     }
     catch (error) {
