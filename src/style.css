@@ -106,3 +106,17 @@ body {
     margin-bottom: 10px;
     padding-left: 10px;
 }
+
+.image {
+    position: absolute;
+    left: 50;
+    bottom: 0;
+    top: 140px;
+}
+
+.image2 {
+    position: absolute;
+    left: 900px;
+    bottom: 0;
+    top: 200px;
+}
