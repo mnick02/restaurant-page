@@ -68,6 +68,7 @@ body {
     margin-bottom: 40px;
 }
 
+.item,
 .hours {
     background-color: #FEBD55;
     border: 5px solid #284167;
@@ -122,7 +123,9 @@ body {
 }
 
 
-.main {
+.main,
+.drinks,
+.sides {
     background-color: #FEBD55;
     border: 5px solid #284167;
     border-radius: 10px;
@@ -133,3 +136,4 @@ body {
     margin: auto;
     margin-bottom: 40px;
 }
+
