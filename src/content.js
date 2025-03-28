@@ -1,4 +1,4 @@
-import SanjiImage from './sanji.png';
+import cloud from './cloud.png';
 
 export function homePage() {
     //const content = document.getElementById("content");
@@ -80,10 +80,17 @@ export function homePage() {
 
     const image = document.createElement("img");
     image.classList.add("image");
-    image.src = SanjiImage;
-    image.width = 300;
-    image.height = 200;
+    image.src = cloud;
+    image.width = 100;
+    image.height = 100;
     container.appendChild(image);
+
+    const image2 = document.createElement("img");
+    image2.classList.add("image2");
+    image2.src = cloud;
+    image2.width = 100;
+    image2.height = 100;
+    container.appendChild(image2);
 
     return container;
 }
