@@ -145,3 +145,23 @@ body {
 .itemHead {
     margin-bottom: 15px;
 }
+
+.price,
+.description {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+
+
+.box {
+    border: 3px solid #FE5B54;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+
+    margin-left: 200px;
+}
