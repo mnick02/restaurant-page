@@ -43,7 +43,7 @@ body {
     margin: 0 auto;
 }
 
-
+.menuHead,
 .header {
     background-color: #FEBD55;
     border: 5px solid #284167;
@@ -119,4 +119,17 @@ body {
     left: 900px;
     bottom: 0;
     top: 200px;
+}
+
+
+.main {
+    background-color: #FEBD55;
+    border: 5px solid #284167;
+    border-radius: 10px;
+    font-size: 2rem;
+
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
 }
