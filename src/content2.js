@@ -36,7 +36,6 @@ export function menuPage() {
 
     const burDiv = document.createElement("div");
     burDiv.classList.add("box");
-    burDiv.textContent = "l";
     itemContainer.appendChild(burDiv);
 
 
@@ -70,7 +69,6 @@ export function menuPage() {
 
     const burDiv2 = document.createElement("div");
     burDiv2.classList.add("box");
-    burDiv2.textContent = "l";
     drinkContainer.appendChild(burDiv2);
 
     //price 
@@ -105,7 +103,6 @@ export function menuPage() {
 
     const burDiv3 = document.createElement("div");
     burDiv3.classList.add("box");
-    burDiv3.textContent = "l";
     sideContainer.appendChild(burDiv3);
 
 
