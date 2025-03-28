@@ -44,9 +44,18 @@ body {
 
 
 .header {
-    background-color: aqua;
+    background-color: #FEBD55;
+    border: 5px solid #284167;
+    border-radius: 10px;
+    font-size: 3rem;
+
+    text-align: center;
+    width: 80%;
+    margin: auto;
     margin-bottom: 20px;
 }
+
+
 
 
 .text {
