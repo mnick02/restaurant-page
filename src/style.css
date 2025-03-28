@@ -31,7 +31,8 @@ nav {
 }
 
 body {
-    background-color: #ffcc7b;
+    /*background-color: #ffcc7b;*/
+    background: linear-gradient(#ffcc7b, #FE5B54);
 }
 
 #content {
