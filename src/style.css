@@ -74,10 +74,18 @@ body {
     border-radius: 10px;
     padding: 20px;
     font-size: 1.2rem;
+    text-align: center;
 
     width: 70%;
     margin: auto;
     margin-bottom: 40px;
+}
+
+.hourHead {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 .location {
