@@ -38,7 +38,7 @@ menuBtn.addEventListener("click", async () => {
     try {
         content.innerHTML = "";
         const module = await import("./content2"); 
-        content.appendChild(module.two);
+        content.appendChild(module.menuPage());
         console.log("Hello");
     }
     catch (error) {
