@@ -42,3 +42,24 @@ body {
     margin: 0 auto;
 }
 
+
+.header {
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+
+.text {
+    background-color: greenyellow;
+    margin-bottom: 20px;
+}
+
+.hours {
+    background-color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.location {
+    background-color: pink;
+    margin-bottom: 20px;
+}
