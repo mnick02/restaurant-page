@@ -137,3 +137,11 @@ body {
     margin-bottom: 40px;
 }
 
+
+.item {
+    text-align: left;
+}
+
+.itemHead {
+    margin-bottom: 15px;
+}
